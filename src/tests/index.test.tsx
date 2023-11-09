@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Home from ".";
+import Home from "../pages";
 
 describe("Home", () => {
   it("Should render a component with the given text", () => {
