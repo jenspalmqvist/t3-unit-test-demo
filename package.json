@@ -9,7 +9,8 @@
     "start": "next start",
     "test": "jest",
     "cypress:open": "cypress open",
-    "e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\""
+    "e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\"",
+    "cypress:ci": "start-server-and-test dev http://localhost:3000 \"cypress run\""
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.7.0",
