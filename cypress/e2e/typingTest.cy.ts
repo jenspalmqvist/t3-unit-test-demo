@@ -8,6 +8,6 @@ describe("template spec", () => {
 
     cy.get("input").type("Hello World!");
 
-    cy.get("input").should("have.value", "Hello World!");
+    cy.get("input").should("have.value", "Hello World?");
   });
 });
